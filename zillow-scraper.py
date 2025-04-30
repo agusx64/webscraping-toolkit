@@ -20,7 +20,7 @@ run_input = {
 }
 
 print("🚀 Ejecutando Contact Details Scraper...")
-run = client.actor("9Sk4JJhEma9vBKqrg").call(run_input=run_input)
+run = client.actor("").call(run_input=run_input)
 
 print("\n📄 Resultados encontrados:\n")
 for i, item in enumerate(client.dataset(run["defaultDatasetId"]).iterate_items(), start=1):
