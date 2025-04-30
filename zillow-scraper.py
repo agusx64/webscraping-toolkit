@@ -1,7 +1,7 @@
 from apify_client import ApifyClient
 
 # 🔐 Tu API Token de Apify
-client = ApifyClient("apify_api_GHXaRAfNdbpqLOAcdyhdfU3o5EbKdB1Teu8t")
+client = ApifyClient("")
 
 # 🔗 URL desde donde se extraerá la info de contacto
 run_input = {
